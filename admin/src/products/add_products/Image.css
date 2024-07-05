@@ -1,0 +1,21 @@
+.form-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:2px dashed blue;
+    height:600 px;
+    width:400px;
+    cursor:pointer;
+    border-radius:15 px;
+}
+
+.uploaded-row{
+    margin:10px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 15px 20px;
+    border-radius:5px;
+    background-color: grey;
+}

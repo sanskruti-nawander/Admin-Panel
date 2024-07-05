@@ -1,0 +1,30 @@
+.images-container{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    
+    
+
+    
+
+}
+.products-main-container{
+    display: flex;
+    justify-content:center; 
+     width: 100%;
+     height: 100vh;
+}
+
+.description-container{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 1000px; /* Adjust the width as needed */
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.id-container{
+    width:10px;
+
+}

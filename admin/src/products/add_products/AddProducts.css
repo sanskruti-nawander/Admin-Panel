@@ -1,0 +1,22 @@
+.main-addproducts-container{
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.image-div-container{
+    float:left;
+    width:25%;
+    margin-right:10%;
+    
+   }
+   
+
+
+.info-div-container{
+    float:left;
+    width:25%;
+    margin-left:10%;
+
+}

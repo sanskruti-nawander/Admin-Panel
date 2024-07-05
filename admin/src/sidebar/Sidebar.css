@@ -1,0 +1,78 @@
+/* Sidebar.css */
+.logo-techasia{
+    height:100px;
+    width:230px;
+}
+.sidebar {
+  
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+    border-right: 1px solid #e0e0e0;
+    
+    
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .sidebar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .sidebar-title {
+    font-size: 1.25rem;
+  }
+  
+  .sidebar-menu {
+    flex-grow: 1;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-link.active,
+  .sidebar-link:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .sidebar-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .sidebar-footer {
+    padding: 1rem;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .sidebar-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  
+  .sidebar-user-name {
+    font-size: 1rem;
+  }
+  
+  
